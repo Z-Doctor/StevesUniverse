@@ -15,7 +15,12 @@ import zdoctor.stevenuniverse.items.OpalGem;
 import zdoctor.stevenuniverse.items.PearlGem;
 import zdoctor.stevenuniverse.items.PeridotGem;
 import zdoctor.stevenuniverse.items.RainbowGem;
+import zdoctor.stevenuniverse.items.RoseGem;
+import zdoctor.stevenuniverse.items.RubyGem;
 import zdoctor.stevenuniverse.items.SUFood;
+import zdoctor.stevenuniverse.items.SapphireGem;
+import zdoctor.stevenuniverse.items.SardonyxGem;
+import zdoctor.stevenuniverse.items.SugiliteGem;
 
 public class SUItems {
 	
@@ -25,10 +30,10 @@ public class SUItems {
 //	}
 	
 	public static Item alexandriteGem, amethystGem, amethystWhip, bagel, chips, cookieCat, creamedCorn, dogNut, 
-	durianJuice, fryBits, garnet, garnetGauntlet, garnetGem, giantWoman, jasper, jasper_crashhelmet, jasperGem, lapisGem, lapis_hydro, lapis_wings,
-	malachite, malachiteGem, malachite_hydro, opal, opal_bow, opalGem, pearl, pearlGem, pearl_spear, peridot, peridot_claw, peridotGem, rainbow, rainbowGem, rose,
-	rose_heart, rose_sword, rose_shield, ruby_glove, ruby, ruby_heart, sapphire, sapphire_glove, sapphire_heart, sapphire_screech,
-	sardonyx, sardonyx_hammer, sardonyx_heart, steven_ukulele, sugilite, sugilite_flail, sugilite_heart, togetherBreakfast, whipItUp;
+	durianJuice, fryBits, garnetGauntlet, garnetGem, giantWoman, jasper, jasper_crashhelmet, jasperGem, lapisGem, lapis_hydro, lapis_wings,
+	malachiteGem, malachite_hydro, opal_bow, opalGem, pearlGem, pearl_spear, peridot_claw, peridotGem, rainbowGem, roseGem, rose_sword, rose_shield, ruby_glove, rubyGem, 
+	sapphire_glove, sapphireGem, sapphire_screech,
+	sardonyxGem, sardonyx_hammer, sardonyx_heart, steven_ukulele, sugilite, sugilite_flail, sugiliteGem, togetherBreakfast, whipItUp;
 	
 	public static ToolMaterial Pearl = EnumHelper.addToolMaterial("Pearl", 3, 1000000, 16.0f, 5.0f, 1);
 	public static ToolMaterial Amethyst = EnumHelper.addToolMaterial("Amethyst", 3, 1000000, 16.0f, 5.0f, 1);
@@ -63,11 +68,11 @@ public class SUItems {
 		rainbowGem = new RainbowGem();
 		pearlGem = new PearlGem();
 		opalGem = new OpalGem();
-//		rose_heart = new rose_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":rose_gem").setUnlocalizedName("rose_heart");
-//		ruby_heart = new ruby_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":ruby_gem").setUnlocalizedName("ruby_heart");
-//		sardonyx_heart = new Item().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sardonyx_gem").setUnlocalizedName("sardonyx_heart");
-//		sapphire_heart = new sapphire_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sapphire_gem").setUnlocalizedName("sapphire_heart");
-//		sugilite_heart = new sugilite_heart().setCreativeTab(ModCreativeTabs.tabSU).setTextureName(StevesUniverse.MODID + ":sugilite_gem").setUnlocalizedName("sugilite_heart");
+		roseGem = new RoseGem();
+		rubyGem = new RubyGem();
+		sardonyxGem = new SardonyxGem();
+		sapphireGem = new SapphireGem();
+		sugiliteGem = new SugiliteGem();
 		
 		// Items
 		amethystWhip = new AmethystWhip();
